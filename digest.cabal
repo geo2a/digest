@@ -1,6 +1,6 @@
 cabal-version:      2.4
 name:               digest
-version:            0.0.2.1.0.0.0.1
+version:            0.0.2.1.0.0.0.2
 copyright:          (c) 2009 Eugene Kirpichov
 license:            BSD-2-Clause
 license-file:       LICENSE

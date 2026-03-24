@@ -35,10 +35,6 @@ library
   -- This patched version of the digest depends on crc32c, but we only need this
   -- for cross-compilation to Windows via Haskell.nix. See
   -- https://github.com/TeofilC/digest/pull/24.
-  --
-  -- We include this conditional to force Linux to keep using the Hackage version.
-  if !os(windows)
-    buildable: False
 
   exposed-modules:
     Data.Digest.Adler32
